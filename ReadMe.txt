@@ -5,7 +5,6 @@ Requirement:
 Steps to setup:
 
 1) Restore database "jBilling" either from jBilling.sql or jBillingDB.backup.
-2) Extract jBilling.zip
 2) Go to <path>\jBilling
 3) Run command "mvn package" in cmd. This will run all the tests and will package the project in a jar and will place the jar in \target folder.
 4) Execute the following command in cmd: "java -jar <path>\jBilling\target\jBilling-0.0.1-SNAPSHOT.jar"
